@@ -21,6 +21,9 @@ public class Assignment2 {
 		driver.findElement(By.id("AirlineAutocomplete")).sendKeys("indigo");
 		driver.findElement(By.id("SearchBtn")).click();
 		System.out.println(driver.findElement(By.id("homeErrorMessage")).getText());
+		System.out.println("branching");
+		System.out.println("branching1");
+		System.out.println("branching2");
 
 	}
 
