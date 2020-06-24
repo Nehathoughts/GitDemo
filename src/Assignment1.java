@@ -18,7 +18,7 @@ public class Assignment1 {
 		
 		// Q.2
 		System.out.println("No of checkboxes"+ driver.findElements(By.xpath(("//input[@type='checkbox']"))).size());
-		
+		System.out.println("Hello Neha");
 	}
 
 }
